@@ -1,0 +1,31 @@
+{
+  "name": "demoapp",
+  "version": "1.0.0",
+  "description": "A mean stack app starter pack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.5.8",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.26",
+    "mocha": "^3.0.0",
+    "should": "^10.0.0",
+    "supertest": "^2.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
